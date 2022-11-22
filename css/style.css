@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+/*------------------ common css start ----------------*/
+
+.container{
+        width: 1200px;
+        margin: auto;   
+}
+.row{
+        display: flex;
+        flex-wrap: wrap;
+}
+.in{
+        padding-bottom: 40px;
+        border-bottom: 2px solid #cccccc;
+}
+/*------------------- common css end ------------*/
+/*------- nav start ----*/
+
+nav{
+        background: #252d2f;
+}
+nav .container{
+        align-items: center;
+}
+nav .logo img{
+        display: block;
+}
+nav .logo{
+        width: 20%;
+}
+nav .manu{
+        width: 80%;
+}
+nav .manu ul{
+        justify-content: flex-end;
+}
+nav .manu ul li a{
+        color: white;
+        text-transform: uppercase;
+        padding: 30px 21px;
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        transition: .6s;
+        cursor: pointer;
+}
+nav .manu ul li:hover a{
+            color: #2ecc71;
+}
+/*--------------- banner start -----------*/
+
+#banner{
+         background: url(../img/images/banner_img.jpg);
+         height:1000px;
+         background-position: center;
+         background-size: cover;
+         position: relative;
+}
+#banner .container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+#banner .banner_contant h1{
+            color: white;
+            text-transform: uppercase;
+            font-size: 60px;
+            font-weight: 700;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 55px;
+            border-bottom: 3px solid white;
+            border-top: 3px solid white;
+}
+#banner .banner_contant a{
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            border: 3px solid white;
+            padding: 20px 35px;
+}
+/*--------------- banner end --------------*/
+/*--------------- taxt contant start ----------*/
+#taxt-box .taxt_contant .taxt_item{
+                        width: calc(100% / 3);
+                        color: #566366;                       
+}
+#taxt-box .taxt_contant .taxt_item h3{
+                        font-size: 30px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding-bottom: 50px;
+}
+#taxt-box .taxt_contant .taxt_item p{
+                        font-size: 18px;
+}    
+#taxt-box .taxt_contant{
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+}                 
+/*--------------- taxt contant end ------------*/
+/*--------------- about start --------------*/
+#about{
+        background-color: #f2f2f1;               
+}
+#about .about_bg{ width: 20%; height: 755px;}
+#about .about_item{ 
+                 margin-left: 400px;
+                 width: 50%;
+                 color: #919191;
+}
+#about .heading_info{
+                margin-bottom: 80px;
+}
+#about .heading_info h2{
+                color: #566366;
+                font-size: 30px;
+                font-weight: 700;
+                padding-bottom: 50px;
+}
+#about .logo_text_info{
+                padding-bottom: 60px;
+}
+#about .heading_info p{
+                font-size: 18px;
+}
+#about .logo_text .logo_text_info{
+                        width: 50%;
+                        padding-right: 50px;
+}
+#about .logo_text .logo_text_info h3{
+        color: #566366;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 700;
+        padding-left: 20px;
+}
+#about .logo_text .logo_text_info p{ 
+                font-size: 18px;      
+                padding-left: 62px;
+}
+/*--------------- about end ----------------*/
+/*--------------- my skill start ---------------*/
+#my_skill{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+#my_skill .text{
+                 width: 50%;                
+                 color: #919191;
+                 padding-right: 30px;
+}
+#my_skill .text h4{
+                font-size: 30px;
+                font-weight: 700;
+                color: #566366;
+                text-transform: uppercase;
+                padding-top: 100px;
+                padding-bottom: 50px;
+}
+#my_skill .text p{
+                font-size: 18px;
+                padding-bottom: 60px;
+}
+#my_skill .text a{
+                color: #2ecc71;
+                text-transform: uppercase;
+                border: 3px solid #2ecc71;
+                padding: 15px 25px;
+                font-size: 18px;
+                font-weight: 700;
+}
+#my_skill .table{
+                width: 50%;
+                padding-left: 30px;              
+}
+#my_skill .table p{
+                margin-left: 90%;
+                padding-top: 5px;                
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+}
+#my_skill .table h4{
+                color: #566366;
+                font-size: 22px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-top: 40px;
+                padding-bottom: 20px;
+}
+#my_skill .table .box{
+                width: 560px;
+                height: 30px;
+                background-color: #f2f2f1;
+}
+#my_skill .table_1 .up_box{
+                width: 90%;
+                height: 30px;
+                background-color: #2ecc71;
+}
+#my_skill .table_2 .up_box{
+        width: 80%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+#my_skill .table_3 .up_box{
+        width: 90%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+#my_skill .table_4 .up_box{
+        width: 70%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+/*--------------- my skill end -----------------*/
+/*--------------- resume start -----------------*/
+#resume{
+        background-color: #f2f2f1;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+#resume .container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+#resume .resume_info{        
+        color: #919191;        
+}
+#resume .resume_info h4{ 
+                font-size: 30px;
+                font-weight: 700;
+                color: #566366;
+                text-transform: uppercase;
+                padding-bottom: 50px;
+}
+#resume .resume_info p{
+                font-size: 18px;
+                padding-bottom: 70px;
+}
+#resume .resume_info a{
+        color: #2ecc71;
+        text-transform: uppercase;
+        border: 3px solid #2ecc71;
+        padding: 20px 20px;
+        font-size: 18px;
+        font-weight: 700;
+}
+/*--------------- resume end -------------------*/
+/*------------------- education start ----------------*/
+#education{
+        margin-top: 100px;               
+}
+#education .container{
+        padding-bottom: 100px;
+        border-bottom: 2px solid #cccccc;
+}
+#education .edu-_-info{
+        width: 50%;
+        padding-right: 50px;
+        color: #919191;
+        font-size: 18px;
+}
+#education .edu-_-info h2{
+                color: #566366;
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: 700;
+                padding-bottom: 50px;
+}
+#education .result{
+                width: 50%;
+                color: #919191;
+                font-size: 18px;
+                padding-left: 50px;
+}
+#education .result h4{
+                color: #566366;
+                font-size: 22px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-bottom: 20px;
+}
+#education .result p2{
+                font-weight: 500;
+}
+#education .result p3{
+                background-color: #2ecc71;
+                color: white;
+                font-size: 14px;
+                font-size: 700;
+                padding: 10px 10px;                
+}
+/*------------------- education end ------------------*/
+/*------------------- experience start ------------------*/
+#experience{
+             margin: 100px 0 100px;
+}
+#experience .experience_text{
+                width: 50%;
+                color: #919191;
+                font-size: 18px;
+                padding-right: 38px;
+}
+#experience .experience_text h4{ 
+                color: #566366;
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: 700;
+                padding-bottom: 50px;
+}
+#experience .experience_info{
+                width: 50%;
+                color: #919191;
+                font-size: 18px;
+                padding-left: 38px;
+}
+#experience .experience_info h4{
+                color: #566366;
+                font-size: 22px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-bottom: 20px;
+}
+#experience .experience_info p2{
+                font-weight: 500;
+}
+#experience .experience_info p3{
+                background-color: #2ecc71;
+                color: white;
+                font-size: 14px;
+                font-size: 700;
+                padding: 7px 10px; 
+}
+/*------------------- experience end --------------------*/
+/*--------------------- John Stone start ----------------*/
+#John_Stone{
+        background-color: #f2f2f1;
+        padding-top: 100px;
+        padding-bottom: 100px;              
+}
+#John_Stone .container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+#John_Stone .J-S-_info p{
+                color: #919191;
+                font-size: 24px;
+                padding-bottom: 45px;
+}
+#John_Stone .J-S-_info h6{
+                color: #566366;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+}
+/*--------------------- John Stone end ------------------*/
+/*------------------- portfolio start ----------------*/
+#portfolio{
+       margin: 100px 0 100px;
+}
+#portfolio .text_info{
+        height: 100%;
+        color: #919191;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 100px;        
+} 
+#portfolio .text h3{
+        color: #566366;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 50px;
+}
+#portfolio .text p{
+        font-size: 18px;
+}
+#portfolio .img{
+        width: calc(100% / 3);     
+        position: relative;       
+}
+#portfolio .img img{
+        width: 100%;
+        padding: 20px;
+}
+#portfolio .img .hover{
+        position: absolute;
+        inset: 20px;
+        background-color: rgba(45, 203, 113, .60);
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: .7s;
+}
+#portfolio .img:hover .hover{
+        opacity: 1;
+        visibility: visible;
+}
+/*------------------- portfolio end ------------------*/
+/*------------------- bottom up start -----------------*/
+#bottom_foot{
+              background-color: #252e30;
+              padding: 100px 0 100px;                
+}
+#bottom_foot .bottom_info{
+        width: 50%;
+        color: white;
+        margin: auto;
+        padding-right: 46px;
+}
+#bottom_foot .bottom_info h3{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+}
+#bottom_foot .bottom_info p{
+                color: #919191;
+                font-size: 18px;
+                padding-bottom: 45px;
+}
+#bottom_foot .bottom_info .text_i p{
+        color: white;
+        padding-bottom: 2px;
+}
+#bottom_foot .bottom_info a{
+                color: #919191;
+                font-size: 18px;
+}
+#bottom_foot .bottom_form{
+                width: 50%;
+                padding-left: 46px;
+}
+#bottom_foot .bottom_form input,
+#bottom_foot .bottom_form textarea{
+                display: block;
+                width: 100%;
+                color: white;
+                background-color: #4b5456;
+                border: none;
+                font-size: 18px;
+                padding: 15px 15px;
+}
+#bottom_foot .bottom_form label{
+                display: block;
+                color: white;
+                font-size: 18px;
+                margin: 40px 0 20px;
+}
+#bottom_foot .bottom_form label span{
+                color: #919191;
+}
+#bottom_foot .bottom_form textarea{
+                resize: vertical;
+                height: 280px;
+}
+#bottom_foot .bottom_form button{
+                color: white;
+                background-color: #191f21;                
+                border: none;
+                margin-top: 40px;
+                padding: 22px 38px;
+}
+#bottom_foot .bottom_form button p{
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+}
+/*------------------- bottom up end -------------------*/
